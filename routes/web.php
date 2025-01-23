@@ -8,7 +8,7 @@ use App\Http\Controllers\CharityController;
 use App\Http\Controllers\CategoryController;
 
 Route::get('/', function () {
-    return view('auth.login');
+    return view('welcome');
 });
 
 // Route::get('/dashboard', function () {
