@@ -172,19 +172,21 @@
             <!-- Dropdown - User Information -->
             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"
                 aria-labelledby="userDropdown">
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="{{route('profile.edit')}}">
                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Profile
                 </a>
                 
                 <div class="dropdown-divider"></div>
                 <form method="POST" action="{{ route('logout') }}">
-                <a class="dropdown-item" href="route('logout')" onclick="event.preventDefault();
-                                        this.closest('form').submit();">
-                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                    Logout
-                </a>
+                    @csrf
+                    <a class="dropdown-item" href="#" 
+                       onclick="event.preventDefault(); this.closest('form').submit();">
+                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                        Logout
+                    </a>
                 </form>
+                
             </div>
         </li>
 
