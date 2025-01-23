@@ -48,7 +48,7 @@
                 {{ __('Not registered?') }}
             </a>
 
-            
+
         </div>
     </form>
 </x-guest-layout>
