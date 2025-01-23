@@ -17,9 +17,9 @@
                 </p>
                 <div class="d-grid gap-3 mt-4">
                     <!-- Get Started Button -->
-                    <a href="{{ route('register') }}" class="btn btn-primary btn-lg">Get Started</a>
+                    <a href="https://special-goggles-v6rqxr6wgpgg369g7-8000.app.github.dev/register" class="btn btn-primary btn-lg">Get Started</a>
                     <!-- Login Button -->
-                    <a href="{{ route('login') }}" class="btn btn-outline-secondary btn-lg">Login</a>
+                    <a href="https://special-goggles-v6rqxr6wgpgg369g7-8000.app.github.dev/login" class="btn btn-outline-secondary btn-lg">Login</a>
                 </div>
             </div>
         </div>

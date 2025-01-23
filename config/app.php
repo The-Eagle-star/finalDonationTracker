@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://special-goggles-v6rqxr6wgpgg369g7-8000.app.github.dev/'),
 
     /*
     |--------------------------------------------------------------------------
